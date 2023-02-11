@@ -8,6 +8,7 @@ I will upgrade it later. :)
 if you don't know how to compile asm, you can use the file compil_calc. 
 
 Required:
+
 -nasm
 
 -ld
