@@ -5,9 +5,11 @@ it's just a basic calculator so if the result is greater than 9 it will not disp
 
 I will upgrade it later. :)
 
-if you don't know how to compile asm, you can use the file compil_calc. 
+if you don't know how to compile asm, you can use the file compil_calc as :
 
-Required:
+./compil_calc
+
+Prerequisite :
 
 -nasm
 
