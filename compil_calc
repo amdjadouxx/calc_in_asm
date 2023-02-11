@@ -1,0 +1,1 @@
+nasm -f elf64 calcv1.asm && ld calcv1.o && mv a.out calcv1 && rm -rf *.o
