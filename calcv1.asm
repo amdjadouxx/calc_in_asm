@@ -69,23 +69,24 @@ segment .text
         ;same for n2
         mov rdi, [n2]
         sub rdi, '0'
-        
+
         ;add of n1 and n2
         add rax, rdi
-    
+
+        convert_ascii:
         ;convert ASCII to decimal
         add rax, '0'
-        
+
         ;stock the result in result
         mov [res], rax
-    
+
         ;display msg3
         mov rax, WRITE
         mov rdi, STDOUT
         mov rsi, res
         mov rdx, 1
         syscall
-    
+
         ;display '\n'
         mov rax, WRITE
         mov rdi, STDOUT
@@ -96,5 +97,4 @@ segment .text
         ;exit
         mov rax, EXIT
         mov rdi, 0
-        syscall
-    
+        syscall    
